@@ -19,8 +19,8 @@ internal class SkilledWarrior : Mercenary
         price = 100;
         description = "오랜 시간의 수련으로 숙련된 전사다.";
 
-        AddSkill(new Skill_Warrior_1(this));
-        AddSkill(new Skill_Warrior_2(this));
-        AddSkill(new Skill_Warrior_3(this));
+        AddSkill(new Skill_Warrior_1(this));  // 단일 공격 스킬
+        AddSkill(new Skill_Warrior_2(this));  // 2명 공격 스킬
+        AddSkill(new Skill_Warrior_3(this));  // 전체 공격 스킬
     }
 }
